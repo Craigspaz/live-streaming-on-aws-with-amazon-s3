@@ -2,7 +2,7 @@
 
 Live streaming on AWS with Amazon S3 automatically configures AWS Elemental MediaLive, Amazon S3 and Amazon CloudFront to ingest, encode, package and deliver a single source live stream through the AWS Cloud. The guidance provides 3 Encoding profiles to support 1080p through 288p HTTP live streaming (HLS) outputs. For more details see the [guidance home page](https://aws.amazon.com/solutions/live-streaming-on-aws/). 
 
-The solution was developed using the [AWS Cloud Development Kit]() and also leverages a AWS Solutions Construct [CloudFrontToS3](https://docs.aws.amazon.com/solutions/latest/constructs/aws-cloudfront-s3.html)
+The guidance was developed using the [AWS Cloud Development Kit]() and also leverages a AWS Solutions Construct [CloudFrontToS3](https://docs.aws.amazon.com/solutions/latest/constructs/aws-cloudfront-s3.html)
 
 *Customers are responsible for making their own independent assessment of the information in this Guidance. This Guidance: (a) is for informational purposes only, (b) represents AWS current product offerings and practices, which are subject to change without notice, and (c) does not create any commitments or assurances from AWS and its affiliates, suppliers or licensors. AWS products or services are provided "as is" without warranties, representations, or conditions of any kind, whether express or implied. AWS responsibilities and liabilities to its customers are controlled by AWS agreements, and this Guidance is not part of, nor does it modify, any agreement between AWS and its customers.*
 
