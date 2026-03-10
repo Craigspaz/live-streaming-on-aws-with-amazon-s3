@@ -29,7 +29,7 @@ export class LiveStreaming extends cdk.Stack {
         /**
          * CloudFormation Template Descrption
          */
-        const solutionId = 'SO0109'
+        const solutionId = 'SO9672'
         const solutionName = 'Live Streaming on AWS with Amazon S3'
         this.templateOptions.description = `(${solutionId}) ${solutionName} Solution %%VERSION%%`;
         /**
