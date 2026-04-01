@@ -54,7 +54,7 @@ export class LiveStreaming extends cdk.Stack {
         const pullUrl = new cdk.CfnParameter(this, 'PullUrl', {
             type: 'String',
             description: 'For URL PULL input type ONLY, specify the primary source URL, this should be a HTTP or HTTPS link to the stream manifest file.',
-            default: 'https://d15an60oaeed9r.cloudfront.net/live_stream_v2/sports_reel_with_markers.m3u8'
+            default: 'https://fcd796e21ed48a1abb4824e834c02632.p05sqb.channel-assembly.mediatailor.us-west-2.amazonaws.com/v1/channel/Live-event-framework-source-DO-NOT-DELETE/index.m3u8'
         });
         const pullUser = new cdk.CfnParameter(this, 'PullUser', {
             type: 'String',

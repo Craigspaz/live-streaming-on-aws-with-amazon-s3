@@ -2,7 +2,7 @@
 
 exports[`LiveStreaming Stack Test 1`] = `
 {
-  Description: (SO0109) Live Streaming on AWS with Amazon S3 Solution %%VERSION%%,
+  Description: (SO9672) Live Streaming on AWS with Amazon S3 Solution %%VERSION%%,
   Mappings: {
     AnonymizedData: {
       SendAnonymizedData: {
@@ -312,7 +312,7 @@ exports[`LiveStreaming Stack Test 1`] = `
       Type: String,
     },
     PullUrl: {
-      Default: https://d15an60oaeed9r.cloudfront.net/live_stream_v2/sports_reel_with_markers.m3u8,
+      Default: https://fcd796e21ed48a1abb4824e834c02632.p05sqb.channel-assembly.mediatailor.us-west-2.amazonaws.com/v1/channel/Live-event-framework-source-DO-NOT-DELETE/index.m3u8,
       Description: For URL PULL input type ONLY, specify the primary source URL, this should be a HTTP or HTTPS link to the stream manifest file.,
       Type: String,
     },
@@ -348,7 +348,7 @@ exports[`LiveStreaming Stack Test 1`] = `
             Arn,
           ],
         },
-        SolutionId: SO0109,
+        SolutionId: SO9672,
         Type: {
           Ref: InputType,
         },
@@ -523,7 +523,7 @@ exports[`LiveStreaming Stack Test 1`] = `
         Tags: [
           {
             Key: SolutionId,
-            Value: SO0109,
+            Value: SO9672,
           },
         ],
       },
@@ -605,7 +605,7 @@ exports[`LiveStreaming Stack Test 1`] = `
         Tags: [
           {
             Key: SolutionId,
-            Value: SO0109,
+            Value: SO9672,
           },
         ],
         VersioningConfiguration: {
@@ -646,7 +646,7 @@ exports[`LiveStreaming Stack Test 1`] = `
         Tags: [
           {
             Key: SolutionId,
-            Value: SO0109,
+            Value: SO9672,
           },
         ],
         VersioningConfiguration: {
@@ -837,7 +837,7 @@ exports[`LiveStreaming Stack Test 1`] = `
         Tags: [
           {
             Key: SolutionId,
-            Value: SO0109,
+            Value: SO9672,
           },
         ],
         VersioningConfiguration: {
@@ -1030,7 +1030,7 @@ exports[`LiveStreaming Stack Test 1`] = `
         Tags: [
           {
             Key: SolutionId,
-            Value: SO0109,
+            Value: SO9672,
           },
         ],
         VersioningConfiguration: {
@@ -1156,7 +1156,7 @@ exports[`LiveStreaming Stack Test 1`] = `
         Description: CFN Custom resource to copy assets to S3 and get the MediaConvert endpoint,
         Environment: {
           Variables: {
-            SOLUTION_IDENTIFIER: AwsSolution/SO0109/%%VERSION%%,
+            SOLUTION_IDENTIFIER: AwsSolution/SO9672/%%VERSION%%,
           },
         },
         Handler: index.handler,
@@ -1170,7 +1170,7 @@ exports[`LiveStreaming Stack Test 1`] = `
         Tags: [
           {
             Key: SolutionId,
-            Value: SO0109,
+            Value: SO9672,
           },
         ],
         Timeout: 30,
@@ -1320,7 +1320,7 @@ exports[`LiveStreaming Stack Test 1`] = `
         Tags: [
           {
             Key: SolutionId,
-            Value: SO0109,
+            Value: SO9672,
           },
         ],
       },
@@ -1449,7 +1449,7 @@ exports[`LiveStreaming Stack Test 1`] = `
         Tags: [
           {
             Key: SolutionId,
-            Value: SO0109,
+            Value: SO9672,
           },
         ],
       },
